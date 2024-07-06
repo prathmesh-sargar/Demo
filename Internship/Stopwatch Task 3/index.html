@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container" id="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div class="stopwatch-container" id="stopwatch-container">
+        <h1>Stopwatch</h1>
+        <div id="display">00:00:00</div>
+        <button id="startStop">Start</button>
+        <button id="reset">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

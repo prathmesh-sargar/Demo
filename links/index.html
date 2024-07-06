@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cont1{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    /* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.search-container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    transition: box-shadow 0.3s ease;
+}
+
+.search-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 24px 0 0 24px;
+}
+
+.search-input::placeholder {
+    color: #80868b;
+}
+
+.search-button {
+    border: none;
+    background: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 24px 24px 0;
+}
+
+.search-button:hover .search-icon {
+    color: #4285f4;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #5f6368;
+}
+
+.search-form:focus-within {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.56);
+}
+
+
+
+</style>
+
+<body>
+    
+      <div class="cont1">
+           <h1>google</h1>
+      </div>
+    <br>
+    <div class="search-container">
+      <form action="/" method="get" class="search-form">
+     <input type="text" name="q" class="search-input" placeholder="Search Google or type a URL" aria-label="Search">
+ <button  class="searcgin" >
+     S  </button>
+      <button type="submit" class="deletein">D
+       
+
+</button>
+    
+ </body>
+<script>
+
+    const inputdata = document.querySelector(".search-input") 
+    console.log(inputdata.innerHTML)
+
+    const deleteinput = document.querySelector("deletein")
+    const searchinput = document.querySelector("searchin")
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>

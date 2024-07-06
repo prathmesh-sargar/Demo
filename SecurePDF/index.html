@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Protected PDF</title>
+    <style>
+        body {
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none;    /* Firefox */
+            -ms-user-select: none;     /* Internet Explorer/Edge */
+            user-select: none;         /* Standard */
+        }
+    </style>
+    <script>
+        <!-- (function() {
+            const devtools = /./;
+            devtools.toString = function() {
+                this.opened = true;
+                alert("Developer tools are opened. Content is protected.");
+                document.body.innerHTML = ""; // Clear the content
+            }
+            console.log("%c", devtools);
+        })(); -->
+    </script>
+</head>
+<body>
+    <h1>Protected PDF Example</h1>
+    <iframe src="./physics.pdf" width="300" height="400" style="border: none;"></iframe>
+</body>
+</html>
